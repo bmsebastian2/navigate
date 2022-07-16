@@ -1,0 +1,60 @@
+* {
+    font-size: 1.2rem;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(245, 246, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    min-width: 25vw;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(207, 207, 207);
+}
+
+
+#latitud::before {
+    content: 'Latitud:';
+}
+
+#longitud::before {
+    content: 'Longitud:';
+}
+
+#distrito::before {
+    content: 'Barrio:';
+}
+
+#city::before {
+    content: 'Ciudad:';
+}
+
+#countryName::before {
+    content: 'País:';
+}
+
+#street::before {
+    content: 'País:';
+}
+
+#postalCode::before {
+    content: 'País:';
+}
+
+#houseNumbe::before {
+    content: 'País:';
+}
+
+::before {
+    font-weight: bold;
+    color: brown;
+}
